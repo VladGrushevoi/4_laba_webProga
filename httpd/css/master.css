@@ -1,0 +1,13 @@
+.wall{
+  display: inline-block;
+  margin: 20px;
+}
+.brick{
+  text-align: justify;
+  display: block;
+  padding: 1px;
+  height: 25px
+}
+.submit{
+  align: center;
+}
