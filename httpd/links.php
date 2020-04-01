@@ -5,16 +5,16 @@
     <title>Посилання</title>
   </head>
   <body>
-    <?php 
+    <?php
       $name = $_POST['name'];
       $surname = $_POST['surname'];
       $phone_num = $_POST['phone_num'];
       $email = $_POST['email'];
-      
+
       $school = $_POST['school'];
       $faculty = $_POST['faculty'];
       $course = $_POST['course'];
-      
+
       $interests = $_POST['interests'];
       if (!preg_match("/[а-я]/i", $name) && !preg_match("/[a-z]/i", $name)) {
         exit('Ім\'я повинне містити лише літери!');
